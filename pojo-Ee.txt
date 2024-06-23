@@ -1,0 +1,86 @@
+package eems.pojo;
+
+public class Ee {
+
+	private int id; //主键
+	
+	private String ename; //员工姓名
+	
+	private String eauthority; //权限
+	
+	private String esex; //性别
+	
+	private int enumber; //工号
+
+	private String eentry; //入职日期
+
+	private int esalary;//薪水
+	
+	private String eborn;//出生日期
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getEname() {
+		return ename;
+	}
+
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+
+	public String getEauthority() {
+		return eauthority;
+	}
+
+	public void setEauthority(String eauthority) {
+		this.eauthority = eauthority;
+	}
+
+	public String getEsex() {
+		return esex;
+	}
+
+	public void setEsex(String esex) {
+		this.esex = esex;
+	}
+
+	public int getEnumber() {
+		return enumber;
+	}
+
+	public void setEnumber(int enumber) {
+		this.enumber = enumber;
+	}
+
+	public String getEentry() {
+		return eentry;
+	}
+
+	public void setEentry(String eentry) {
+		this.eentry = eentry;
+	}
+
+	public int getEsalary() {
+		return esalary;
+	}
+
+	public void setEsalary(int esalary) {
+		this.esalary = esalary;
+	}
+
+	public String getEborn() {
+		return eborn;
+	}
+
+	public void setEborn(String eborn) {
+		this.eborn = eborn;
+	}
+	
+	
+}

@@ -1,0 +1,46 @@
+package eems.pojo;
+
+public class Eecheck {
+	
+	private String enumber;
+	
+	private String goonwork;// 1/0 1打卡 0未打卡
+	
+	private String gooffwork;// 1/0 1打卡 0未打卡
+	
+	private String date;
+
+	public String getEnumber() {
+		return enumber;
+	}
+
+	public void setEnumber(String enumber) {
+		this.enumber = enumber;
+	}
+
+	public String getGoonwork() {
+		return goonwork;
+	}
+
+	public void setGoonwork(String goonwork) {
+		this.goonwork = goonwork;
+	}
+
+	public String getGooffwork() {
+		return gooffwork;
+	}
+
+	public void setGooffwork(String gooffwork) {
+		this.gooffwork = gooffwork;
+	}
+
+	public String getDate() {
+		return date;
+	}
+
+	public void setDate(String date) {
+		this.date = date;
+	}
+	
+	
+}
